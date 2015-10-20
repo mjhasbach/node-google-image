@@ -1,0 +1,40 @@
+{
+  "name": "google-image",
+  "version": "0.0.1",
+  "description": "Find image data using the deprecated Google Image Search API",
+  "license": "MIT",
+  "homepage": "https://github.com/mjhasbach/google-image",
+  "keywords": [
+    "google",
+    "image",
+    "search",
+    "api"
+  ],
+  "repository": "mjhasbach/google-image",
+  "author": {
+    "name": "Matthew Hasbach",
+    "email": "hasbach.git@gmail.com",
+    "url": "https://github.com/mjhasbach"
+  },
+  "dependencies": {
+    "axios": "0.7.0",
+    "dwn": "0.0.1",
+    "lodash.isplainobject": "3.2.0",
+    "stream-to-array": "2.0.2"
+  },
+  "devDependencies": {
+    "chai": "3.3.0",
+    "gulp": "3.9.0",
+    "gulp-jsdoc-to-markdown": "1.1.1",
+    "gulp-rename": "1.2.2",
+    "gulp-util": "3.0.7",
+    "mkdirp": "0.5.1",
+    "mocha": "2.3.3",
+    "release-script": "0.5.4",
+    "rimraf": "2.4.3"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "release": "release"
+  }
+}
