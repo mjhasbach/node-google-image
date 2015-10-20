@@ -78,12 +78,10 @@ let fs = require('fs'),
         let url = this.url;
 
         return new Promise(function(resolve, _reject) {
-            let reject = cb || _reject;
-
             let readStream = dwn._download(url);
 
             readStream.on('end', cb || resolve);
-            readStream.on('error', reject);
+            readStream.on('error', cb || _reject);
             readStream.pipe(fs.createWriteStream(path));
         });
     },
