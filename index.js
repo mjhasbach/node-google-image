@@ -170,6 +170,7 @@ let fs = require('fs'),
                             /**
                              * Image filename
                              * @alias imageData#fileName
+                             * @memberof imageData
                              * @type {string}
                              */
                             image.fileName = image.url.substr(image.url.lastIndexOf('/') + 1);

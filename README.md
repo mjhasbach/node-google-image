@@ -36,7 +36,7 @@ new googleImage('car')
             console.log('done');
         }).catch(function(err) {
             console.error(err);
-        })
+        });
     }).catch(function(err) {
         console.error(err);
     });
@@ -115,11 +115,17 @@ Search for images. The default page and quantity are 0 and 1, respectively.
 **Kind**: global typedef  
 
 * [imageData](#imageData) : <code>Object.&lt;string, function()&gt;</code>
+  * [.fileName](#imageData+fileName) : <code>string</code>
   * [.download([cb])](#imageData+download) ⇒ <code>Promise</code>
     * [~callback](#imageData+download..callback) : <code>function</code>
   * [.save(path, [cb])](#imageData+save) ⇒ <code>Promise</code>
     * [~callback](#imageData+save..callback) : <code>function</code>
 
+<a name="imageData+fileName"></a>
+### imageData.fileName : <code>string</code>
+Image filename
+
+**Kind**: instance property of <code>[imageData](#imageData)</code>  
 <a name="imageData+download"></a>
 ### imageData.download([cb]) ⇒ <code>Promise</code>
 Download an image
