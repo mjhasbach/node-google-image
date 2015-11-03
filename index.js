@@ -162,7 +162,7 @@ let fs = require('fs'),
                          * @global
                          */
                         /**
-                         * [Image data]{@link https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed} extended with convenience methods (described below)
+                         * [Image data]{@link https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed} extended with the image's filename and convenience methods
                          * @typedef {Object<string, function>} imageData
                          * @global
                          */

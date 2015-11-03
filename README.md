@@ -15,7 +15,7 @@
 <dd><p><a href="https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed">Response data</a> results</p>
 </dd>
 <dt><a href="#imageData">imageData</a> : <code>Object.&lt;string, function()&gt;</code></dt>
-<dd><p><a href="https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed">Image data</a> extended with convenience methods (described below)</p>
+<dd><p><a href="https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed">Image data</a> extended with the image&#39;s filename and convenience methods</p>
 </dd>
 </dl>
 <a name="module_node-google-image"></a>
@@ -110,7 +110,7 @@ Search for images. The default page and quantity are 0 and 1, respectively.
 **Kind**: global typedef  
 <a name="imageData"></a>
 ## imageData : <code>Object.&lt;string, function()&gt;</code>
-[Image data](https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed) extended with convenience methods (described below)
+[Image data](https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed) extended with the image's filename and convenience methods
 
 **Kind**: global typedef  
 
