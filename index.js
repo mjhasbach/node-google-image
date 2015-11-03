@@ -87,7 +87,7 @@ let fs = require('fs'),
     },
     googleImage = class {
         /**
-         * @param {string} q - A search query. This may be omitted and supplied later using the [options]{@link node-google-image#options} or [search]{@link node-google-image#search} method.
+         * @param {string} [q] - A search query. This may be omitted and supplied later using the [options]{@link node-google-image#options} or [search]{@link node-google-image#search} method.
          * @constructs node-google-image
          */
         constructor(q) {

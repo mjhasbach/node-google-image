@@ -46,18 +46,18 @@ new googleImage('car')
 **Kind**: global class  
 
 * [node-google-image](#node-google-image)
-  * [new googleImage(q)](#new_node-google-image_new)
+  * [new googleImage([q])](#new_node-google-image_new)
   * [.quantity(quantity)](#node-google-image+quantity) ↩︎
   * [.page(page)](#node-google-image+page) ↩︎
   * [.options(opt)](#node-google-image+options) ↩︎
   * [.search([opt], [cb])](#node-google-image+search) ⇒ <code>Promise</code>
 
 <a name="new_node-google-image_new"></a>
-### new googleImage(q)
+### new googleImage([q])
 
 | Param | Type | Description |
 | --- | --- | --- |
-| q | <code>string</code> | A search query. This may be omitted and supplied later using the [options](#node-google-image+options) or [search](#node-google-image+search) method. |
+| [q] | <code>string</code> | A search query. This may be omitted and supplied later using the [options](#node-google-image+options) or [search](#node-google-image+search) method. |
 
 <a name="node-google-image+quantity"></a>
 ### node-google-image.quantity(quantity) ↩︎
