@@ -1,15 +1,20 @@
 ## Modules
+
 <dl>
 <dt><a href="#module_node-google-image">node-google-image</a></dt>
-<dd><p>Find image data using the deprecated <a href="https://developers.google.com/image-search/v1/devguide">Google Image Search API</a></p>
+<dd><p>Find image data using the deprecated <a href="https://developers.google.com/image-search/v1/devguide">Google Image Search API</a>. Google has disabled the API. As such, this module is no longer functional.</p>
 </dd>
 </dl>
+
 ## Classes
+
 <dl>
 <dt><a href="#node-google-image">node-google-image</a></dt>
 <dd></dd>
 </dl>
+
 ## Typedefs
+
 <dl>
 <dt><a href="#responseDataResults">responseDataResults</a> : <code><a href="#imageData">Array.&lt;imageData&gt;</a></code></dt>
 <dd><p><a href="https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed">Response data</a> results</p>
@@ -18,9 +23,10 @@
 <dd><p><a href="https://developers.google.com/image-search/v1/jsondevguide#results_guaranteed">Image data</a> extended with the image&#39;s filename and convenience methods</p>
 </dd>
 </dl>
+
 <a name="module_node-google-image"></a>
 ## node-google-image
-Find image data using the deprecated [Google Image Search API](https://developers.google.com/image-search/v1/devguide)
+Find image data using the deprecated [Google Image Search API](https://developers.google.com/image-search/v1/devguide). Google has disabled the API. As such, this module is no longer functional.
 
 **Author:** Matthew Hasbach  
 **License**: MIT  
@@ -41,23 +47,23 @@ new googleImage('car')
         console.error(err);
     });
 ```
+<a name="module_node-google-image..googleImage"></a>
+### node-google-image~googleImage
+**Kind**: inner class of <code>[node-google-image](#module_node-google-image)</code>  
 <a name="node-google-image"></a>
 ## node-google-image
 **Kind**: global class  
 
-* [node-google-image](#node-google-image)
-  * [new googleImage([q])](#new_node-google-image_new)
-  * [.quantity(quantity)](#node-google-image+quantity) ↩︎
-  * [.page(page)](#node-google-image+page) ↩︎
-  * [.options(opt)](#node-google-image+options) ↩︎
-  * [.search([opt], [cb])](#node-google-image+search) ⇒ <code>Promise</code>
-
-<a name="new_node-google-image_new"></a>
-### new googleImage([q])
-
 | Param | Type | Description |
 | --- | --- | --- |
 | [q] | <code>string</code> | A search query. This may be omitted and supplied later using the [options](#node-google-image+options) or [search](#node-google-image+search) method. |
+
+
+* [node-google-image](#node-google-image)
+    * [.quantity(quantity)](#node-google-image+quantity) ↩︎
+    * [.page(page)](#node-google-image+page) ↩︎
+    * [.options(opt)](#node-google-image+options) ↩︎
+    * [.search([opt], [cb])](#node-google-image+search) ⇒ <code>Promise</code>
 
 <a name="node-google-image+quantity"></a>
 ### node-google-image.quantity(quantity) ↩︎
@@ -115,11 +121,11 @@ Search for images. The default page and quantity are 0 and 1, respectively.
 **Kind**: global typedef  
 
 * [imageData](#imageData) : <code>Object.&lt;string, function()&gt;</code>
-  * [.fileName](#imageData+fileName) : <code>string</code>
-  * [.download([cb])](#imageData+download) ⇒ <code>Promise</code>
-    * [~callback](#imageData+download..callback) : <code>function</code>
-  * [.save(path, [cb])](#imageData+save) ⇒ <code>Promise</code>
-    * [~callback](#imageData+save..callback) : <code>function</code>
+    * [.fileName](#imageData+fileName) : <code>string</code>
+    * [.download([cb])](#imageData+download) ⇒ <code>Promise</code>
+        * [~callback](#imageData+download..callback) : <code>function</code>
+    * [.save(path, [cb])](#imageData+save) ⇒ <code>Promise</code>
+        * [~callback](#imageData+save..callback) : <code>function</code>
 
 <a name="imageData+fileName"></a>
 ### imageData.fileName : <code>string</code>

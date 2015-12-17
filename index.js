@@ -2,7 +2,7 @@
 
 // @formatter:off
 /**
- * Find image data using the deprecated [Google Image Search API]{@link https://developers.google.com/image-search/v1/devguide}
+ * Find image data using the deprecated [Google Image Search API]{@link https://developers.google.com/image-search/v1/devguide}. Google has disabled the API. As such, this module is no longer functional.
  * @author Matthew Hasbach
  * @copyright Matthew Hasbach 2015
  * @license MIT
@@ -187,3 +187,5 @@ let fs = require('fs'),
     };
 
 module.exports = googleImage;
+
+console.warn('Google has disabled the deprecated Image Search API. As such, this module is no longer functional.');
