@@ -1,6 +1,6 @@
 {
   "name": "google-image",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find image data using the deprecated Google Image Search API",
   "license": "MIT",
   "homepage": "https://github.com/mjhasbach/google-image",
