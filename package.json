@@ -31,8 +31,5 @@
     "mkdirp": "0.5.1",
     "mocha": "2.3.3",
     "rimraf": "2.4.3"
-  },
-  "scripts": {
-    "test": "mocha test"
   }
 }
